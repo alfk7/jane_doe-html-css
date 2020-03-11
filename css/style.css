@@ -40,9 +40,25 @@ section#banner{
     background-position: center;
     background-size: cover;
 }
-section#concept{
+section#concept,section#songs{
     margin: 0 auto;
     max-width: 100%;
     width: 900px;
     padding: 40px;
+}
+section#songs img{
+    width: 100%;
+}
+.duas-colunas{
+    /* overflow: hidden; */
+}
+.duas-colunas > div{
+    width: 50%;
+    float:left;
+}
+section#songs li{
+    padding:20px 0;
+}
+section#songs li strong{
+    color:slateblue;
 }
